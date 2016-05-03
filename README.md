@@ -20,3 +20,18 @@ connected in series via single resistor to limit the current (see [how to calcul
 - 2-pin pushbutton that has a default state open.
 - A set of wires to connect it all togeter. I have used male pins from breadboard wires cut in the middle and soldered into long wires.
 - Safe power source for Arduino board (and for the light source if required). I have used a 6xAA battery mount. Remember to keep high voltage away from baby cradle!
+
+### Technical notes
+
+- The pushbutton is connected directly to the board. Normally there would be a pull-up resistor required to make it work, but I have used a internal resistor built-in the Arduino board. It has been activated in application code in setup() function block:
+```
+pinMode(button, INPUT_PULLUP);
+```
+- The application includes mechanism for pushbutton contact debouncing with debounce time configured to 50 miliseconds. It may need to be increased in case of odd behavior noticed.
+
+### Building instructions
+
+1. Connect the hardware components listed in previous section according to schema.
+2. Install and configure the Arduino board on your copy of Arduino IDE.
+3. Upload the application code from sketch file: arduino-night-light.ino
+4. Put your baby to sleep and have a deserved rest!
