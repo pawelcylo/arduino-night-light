@@ -33,5 +33,5 @@ pinMode(button, INPUT_PULLUP);
 
 1. Connect the hardware components listed in previous section according to schema.
 2. Install and configure the Arduino board on your copy of Arduino IDE.
-3. Upload the application code from sketch file: arduino-night-light.ino
+3. Upload the application code from sketch file: [arduino-night-light.ino](arduino-night-light.ino)
 4. Put your baby to sleep and have a deserved rest!
