@@ -2,7 +2,7 @@
 
 Arduino powered night light designed to work in baby cradle and provide smooth fading effects at switch on/off in order to keep baby sleeping.
 
-![scheme](https://raw.githubusercontent.com/pawelcylo/arduino-night-light/master/scheme.png)
+![scheme](https://raw.githubusercontent.com/pawelcylo/arduino-night-light/15fcc30eec749ffa66d109f4a4789aabee647ec8/scheme.png)
 
 ### Functionality description
 
