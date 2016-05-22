@@ -34,7 +34,7 @@ void loop(){
 
   // Check if button state has changed because of any reason - press or bounce noise
   if (buttonReading != lastButtonState) {
-    // save the time of last state change
+    // Save the time of last state change
     lastStateChangeTime = millis();
   }
 
